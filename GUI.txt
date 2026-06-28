@@ -1,0 +1,38 @@
+
+Component	                 Purpose	                                                           Usage in Code
+JFrame	       Main application window.	                                               extends JFrame to create the main game window.
+JPanel	      A container to organize components.	                                       - inputPanel: Holds input fields.
+                                                                                       - gamePanel: Displays game state.
+                                                                                    - HangmanPanel: Custom panel to draw the hangman.
+JLabel	      Displays static text or information.	                              - Word Label: Displays the word with blanks.
+                                                                                       - Attempts Label: Shows remaining attempts.
+                                                                                   - Guessed Letters Label: Displays guessed letters.
+                                                                      - Input instructions (e.g., "Enter Name", "Select Difficulty").
+JTextField	Allows users to input text.	                                         - nameField: Enter player’s name.
+                                                                                         - guessField: Input for letter guesses.
+JComboBox	Dropdown menu for selection.	                     - difficultyBox: Selects difficulty level (Easy, Medium, Hard).
+                                                                - categoryBox: Selects word category (Fruits, Sports, Animals, Food).
+JButton	      Button to trigger actions.	                               - startButton: Starts the game with chosen settings.
+                                                                                  - guessButton: Submits the player’s letter guess.
+JOptionPane	Dialog box for messages.	                                 - Shows alerts (e.g., "Wrong guess", "Good guess").
+                                                                                  - Displays player records using displayRecords().
+HangmanPanel	Custom JPanel for drawing graphics.	                  Draws the hangman progressively based on incorrect guesses.
+SwingUtilities	Ensures thread-safe GUI execution.	                         Initializes the GUI window in the main method.
+GridLayout	Layout manager for organizing components in a grid.    	- Used in inputPanel to arrange input fields and buttons.
+BorderLayout	Layout manager for dividing components into regions.	- Adds components like inputPanel (NORTH), gamePanel           (CENTER), and hangmanPanel (WEST)
+
+
+
+Explanation of Layout Managers
+GridLayout:
+
+Organizes components in a grid-like structure with rows and columns.
+Used in inputPanel to neatly display labels, text fields, and buttons in rows.
+BorderLayout:
+
+Divides the window into five regions: NORTH, SOUTH, EAST, WEST, CENTER.
+Used in the main frame to place panels and buttons in specific regions:
+inputPanel: NORTH
+gamePanel: CENTER
+hangmanPanel: WEST
+guessButton: SOUTH
