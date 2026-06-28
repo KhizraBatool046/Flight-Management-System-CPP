@@ -56,7 +56,7 @@ Through this project, I learned:
 ---
 
 ##  Author
-
-**Khizra Batool**
-
+Developed as a university group project. Repository maintained on my profile with contributions from team members.
+**Khizra Batool** , **Muntasha Samoo**
+,
 BS Computer Science Student
