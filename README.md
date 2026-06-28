@@ -1,12 +1,14 @@
- Flight Management System (C++)
+# ✈️ Flight Management System (C++)
 
- Project Overview
+## 📌 Project Overview
 
 This is a console-based Flight Management System developed in C++ as part of my Programming Fundamentals course during the first semester of my BS Computer Science degree.
 
 The project allows users to manage flights and passengers using a menu-driven interface with file handling.
 
- Features
+---
+
+## 🚀 Features
 
 - Create a new flight
 - Add passengers
@@ -20,7 +22,9 @@ The project allows users to manage flights and passengers using a menu-driven in
 - Count flights and passengers
 - File handling for data storage
 
- Technologies Used
+---
+
+## 💻 Technologies Used
 
 - C++
 - File Handling
@@ -28,14 +32,18 @@ The project allows users to manage flights and passengers using a menu-driven in
 - Functions
 - Arrays
 
- Files Included
+---
+
+## 📂 Files Included
 
 - `main.cpp`
 - `flight.txt`
 - `GUI.txt`
 - `ProjectPresentation.pptx`
 
- Learning Outcomes
+---
+
+## 🎯 Learning Outcomes
 
 Through this project, I learned:
 
@@ -45,7 +53,9 @@ Through this project, I learned:
 - Menu-Driven Programming
 - Problem Solving in C++
 
- Author
+---
+
+## 👩‍💻 Author
 
 **Khizra Batool**
 
